@@ -38,6 +38,7 @@ if user_input:
 
     st.session_state.past.append(user_input)
     st.session_state.generated.append(output)
+    print(st.session_state.past)
 
 if st.session_state["generated"]:
 
